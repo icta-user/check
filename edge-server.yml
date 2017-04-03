@@ -64,6 +64,9 @@ server:
   port: 8765
 
 logging:
+  file: Config.log
   level:
     ROOT: INFO
     org.springframework.web: DEBUG
+
+ 
