@@ -64,7 +64,7 @@ server:
   port: 8765
 
 logging:
-  file: Config.log
+  file: Edge.log
   level:
     ROOT: INFO
     org.springframework.web: DEBUG
