@@ -44,7 +44,7 @@ zuul:
     notification-service:
           path: /forestnotification/**
           serviceId: notification-service
-    regionn-service:
+    masl-region-service:
           path: /maslforestregion/**
           serviceId: masl-region-service          
 spring:
