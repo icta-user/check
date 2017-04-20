@@ -5,7 +5,7 @@ server:
  port: 8866
    
 logging:
- file: Region.log
+ file: MaslRegion.log
  level: INFO
 
 # MongoDB Properties 
