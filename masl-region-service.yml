@@ -12,7 +12,7 @@ logging:
 spring:
  data:
   mongodb:
-   database: MaslDB
+   database: MahaweliDB
    host: localhost
    port: 27017
    maxConnectionsPerHost: 10000
