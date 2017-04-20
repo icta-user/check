@@ -44,6 +44,9 @@ zuul:
     notification-service:
           path: /forestnotification/**
           serviceId: notification-service
+    region-service:
+          path: /maslforestregion/**
+          serviceId: masl-region-service          
 spring:
   application:
     name: edge-server
