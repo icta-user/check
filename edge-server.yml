@@ -95,9 +95,7 @@ zuul:
     masl-permission-service:
           path: /maslpermission/**
           serviceId: masl-permission-service          
-    masl-region-service:
-          path: /maslforestregion/**
-          serviceId: masl-region-service          
+          
 spring:
   application:
     name: edge-server
