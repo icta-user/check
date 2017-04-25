@@ -2,7 +2,7 @@ configuration:
   projectName: requestertype-service
 #RequesterType Service Port
 server:
- port: 8088
+ port: 8096
 
 logging:
  file: MaslRequesterType.log
