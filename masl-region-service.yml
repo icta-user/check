@@ -2,7 +2,7 @@ configuration:
   projectName: region-service
 #Region Service Port
 server:
- port: 8866
+ port: 8867
    
 logging:
  file: MaslRegion.log
