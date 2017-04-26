@@ -94,8 +94,10 @@ zuul:
           serviceId: masl-role-service
     masl-permission-service:
           path: /maslpermission/**
-          serviceId: masl-permission-service          
-          
+          serviceId: masl-permission-service 
+    masl-roomtype-service:
+          path: /maslroomtype/**
+          serviceId: masl-roomtype-service           
 spring:
   application:
     name: edge-server
