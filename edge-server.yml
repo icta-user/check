@@ -111,8 +111,9 @@ hystrix:
     default:
       execution:
         isolation:
+          strategy: THREAD
           thread:
-            timeoutInMilliseconds: 120000
+            timeoutInMilliseconds: 60000
 
 server:
   port: 8765
